@@ -19,11 +19,24 @@
                 </div>
             </nav>
         </header>
-
+        <!-- Login section -->
+        <div class="hero w-full">
+            <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                <div class="card-body">
+                    <fieldset class="fieldset">
+                        <label class="label">Account Number</label>
+                        <input id="account-number" type="number" class="input" placeholder="Type Your Account Number" required/>
+                        <label class="label">Pin</label>
+                        <input  id="pin-number" type="text" class="input" placeholder="Type Your Pin" required/>
+                        <div><a class="link link-hover">Forgot password?</a></div>
+                        <button id="login-btn" class="btn btn-neutral mt-4">Login</button>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+        </div>
     </section>
-
-
+    <script src="./login.js"></script>
 </body>
-
 
 </html>
